@@ -9,8 +9,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+        integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Weather Dashboard</title>
 </head>
 
 <body class="h-100">
@@ -24,11 +27,12 @@
 
     <div class="d-flex align-items-stretch h-100">
 
-        <div class="col-md-4 bg-secondary">
+        <div class="col-md-4 bg-secondary text-center">
+            <h4 class="text-white">Search for a City:</h4>
             <div class="input-group mb-3">
-                <input id="search" type="text" class="form-control" placeholder="Anytown, ST" />
+                <input id="search" type="text" class="form-control" />
                 <div class="input-group-append d-block">
-                    <button class="btn btn-outline-info text-light" type="button" id="searchBtn">Icon</button>
+                    <button class="btn btn-outline-info text-light" type="button" id="searchBtn"><i class="fas fa-search"></i></button>
                 </div>
             </div>
         </div>
@@ -59,9 +63,9 @@
         crossorigin="anonymous"></script>
 
 
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="Assets/JavaScript/script.js"></script>
+
 </body>
 
 </html>
