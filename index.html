@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body class="h-100">
+
+    <div class="row text-center" style="background-color: rgb(40, 43, 43);">
+        <div class="header w-100">
+            <h1 class="text-white w-100"> Weather Dashboard</h1>
+        </div>
+    </div>
+
+
+    <div class="d-flex align-items-stretch h-100">
+
+        <div class="col-md-4 bg-secondary">
+            <div class="input-group mb-3">
+                <input id="search" type="text" class="form-control" placeholder="Anytown, ST" />
+                <div class="input-group-append d-block">
+                    <button class="btn btn-outline-info text-light" type="button" id="searchBtn">Icon</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-8" id="weatherDataCol">
+            <div class="card bg-light m-3 width-auto">
+                <div class="card-header" id="city"></div>
+                <div class="card-body">
+                    <p class="card-text" id="temp"></p>
+                    <p class="card-text" id="humid"></p>
+                    <p class="card-text" id="windSp"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Assets/JavaScript/script.js"></script>
+</body>
+
+</html>
